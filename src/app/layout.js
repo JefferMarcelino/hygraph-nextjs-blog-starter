@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import HygraphLogo from '../../public/svg/logo.svg'
+import HygraphLogoWhite from '../../public/svg/logo-white.svg'
 import HygraphMark from '../../public/svg/mark.svg'
 import NavList from '../components/NavList'
 import './globals.css'
@@ -51,7 +52,7 @@ export default function Layout({ children }) {
                     <Image
                       width={150}
                       height={40}
-                      src={HygraphLogo}
+                      src={HygraphLogoWhite}
                       alt="Hygraph Logo"
                       className="hidden sm:block h-10"
                     />
